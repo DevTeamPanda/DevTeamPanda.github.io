@@ -9,6 +9,10 @@ const {
     default: makeWASocket,
     useMultiFileAuthState,
     delay,
+    WAConnection,
+    MessageOptions,
+    MessageType,
+    Mimetype,
     makeCacheableSignalKeyStore,
     Browsers
 } = require("@whiskeysockets/baileys");
